@@ -1,0 +1,369 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+
+/* ------------------------<Home Page>------------------------------ */
+.title {
+  color: #ff3147;
+  font-size: 28px;
+  font-weight: 500;
+}
+.left .agency {
+  font-weight: bold;
+  color: black;
+  font-size: 50px;
+  width: 600px;
+}
+.left .discription {
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+  width: 500px;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  height: 80vh;
+}
+.contact-us-btn {
+  height: 50px;
+  width: 150px;
+  background-color: #ff3147;
+  border-radius: 3px;
+  padding: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.form-group {
+  position: relative;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.mar-2 {
+  margin-top: 25px;
+}
+.form-group label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  font-size: 14px;
+  color: #6F718F99;
+  /* margin-top: 10px; */
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+.pop-form{
+  display: flex;
+  flex-direction: column;
+}
+.email{
+  width: 41%;
+  margin: 20px;
+  border: none;
+}
+.name{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0 20px;
+}
+
+.form-container{
+  width: 100%;
+
+
+}
+
+.pop-form input{
+  border: none;
+  
+
+}
+.pop-form label{
+  font-size: small;
+}
+.modal-body{
+  display: flex;
+  margin-right: 50px;
+  /* height: 20px; */
+}
+.col-2{
+  width: 100%;
+  font-size: small;
+  /* margin-bottom: 200px; */
+  
+  
+}
+.modal-body input{
+  margin-top: 7px;
+  height: 15px;
+}
+.pop-contact-btn{
+
+  margin: auto;
+  width: 50%;
+  height: 40px;
+  font-size: larger;
+  background: #f14141;
+  text-align: center;
+  border-radius: 0;
+  border: none;
+  color: white;
+}
+.modal-content{
+  border-radius: 0%;
+  /* height: 200px; */
+  width: 80%;
+ margin: auto;
+
+}
+
+/* -----------------------------<what we do>----------------------- */
+.second-content-container,
+.second-content-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+}
+.side-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #000000;
+  font-size: 50px;
+  width: 600px;
+}
+.h-size {
+  font-size: 38px;
+  width: 400px;
+}
+.p-size {
+  font-size: 19px;
+}
+
+.second-description {
+  width: 520px;
+  color: #000000;
+  /* font-family: "Bree Serif"; */
+  font-size: 16px;
+}
+.card1 {
+  width: 260px;
+  border-radius: 8px;
+  cursor: default;
+  padding: 8px;
+  /* margin: 3px; */
+}
+.card-style {
+  height: 50px;
+  width: 50px;
+}
+.card-title {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+.card-description {
+  font-family: "Roboto";
+  color: #000000;
+  font-size: 13px;
+  font-weight: 500;
+ 
+}
+.card1:hover {
+  box-shadow: 0px 0px 15px 0px rgb(179, 177, 177) ;
+}
+.slider{
+  display: flex;
+  overflow-x: scroll;
+
+
+}
+.cards{
+
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-gap: 1px;
+  flex: none;
+  margin: auto;
+
+}
+.slider::-webkit-scrollbar{
+  display: none;
+}
+
+
+.card{
+  position: relative;
+  overflow: hidden;
+  height: 450px;
+  width: 300px;
+  margin: 20px;
+
+} 
+
+ .overlay{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; 
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -100%;
+  width: 100%;  
+  height: 0;
+  transition: .5s ease; 
+  color: #fafafa;
+  background: #ff3146e4;
+
+ }
+ .card:hover .overlay{
+  height: 100%;
+
+  bottom: 0;
+
+} 
+.overlay a {
+  color: #ff3147;
+  background: #F4F4F4;
+  font-weight: 700;
+  border: 1px solid #F4F4F4;
+} 
+
+
+
+/* ---------------------<our-project>---------------- */
+.fourth-img-card-container{
+ margin:auto;
+  width: 80%;
+  height: 80%;
+}
+.img-style {
+  height: 75vh;
+  width: 50vw;
+}
+
+
+.our-project-card {
+  background-color: #f6f6f6;
+   width: 25vw;
+  height: 25vh; 
+  cursor: pointer;
+}
+.our-project-card:hover{
+  background: rgb(255, 21, 21);
+}
+.our-project-card-title{
+  font-family: "Bree Serif";
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+}
+.our-project-cards-container{
+  margin-left: 15px;
+}
+.our-project-card-description{
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+
+
+              /* --------------------------<our-growth>----------------------- */
+#stats {
+  background: #f4f4f4;
+  color: black;
+  padding: 100px 0;
+  margin: 20px 0;
+  /* height: 900px; */
+  /* width: 100vw;
+  text-align: center; */
+}
+.mar-1 {
+  margin-top: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.stats {
+  flex-basis: 23%;
+  text-align: center;
+  padding: 33px 31px;
+  background: #ffffff;
+}
+.stats:hover{
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.274);
+}
+
+.stats h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.stats p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.heading {
+  text-align: center;
+}
+.heading span {
+  color: #ff3147;
+  font-size: 24px;
+  font-weight: 500;
+}
+.heading h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+#feedback{
+  background: #ffffff;
+  color: black;
+  padding: 100px 0;
+}
+
+.feed-parent {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.feedbacks{
+  flex-basis: 70%;
+  
+}
+.feedbacks h3{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+
+}
+.feedbacks span{
+  color: #ff3147;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+.feedbacks span:nth-of-type(2) {
+  color: #808080;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
